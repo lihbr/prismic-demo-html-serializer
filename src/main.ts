@@ -5,7 +5,6 @@ import * as prismicH from "@prismicio/helpers";
 import App from "./App.vue";
 import "./index.css";
 
-
 const htmlSerializer: prismicH.HTMLMapSerializer = {
   heading1: ({ children }) => `<h1 class="text-3xl font-bold">${children}</h1>`,
   heading6: ({ children }) => `<p class="text-xl italic">${children}</p>`,
